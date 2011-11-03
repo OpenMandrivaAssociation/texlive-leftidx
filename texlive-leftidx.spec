@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/leftidx
+# catalog-date 2007-01-08 22:21:56 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-leftidx
 Version:	20070108
 Release:	1
@@ -44,6 +50,7 @@ raised for better fitting to the symbol they belong to.
 %doc %{_texmfdistdir}/source/latex/leftidx/Makefile
 %doc %{_texmfdistdir}/source/latex/leftidx/leftidx.dtx
 %doc %{_texmfdistdir}/source/latex/leftidx/leftidx.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ raised for better fitting to the symbol they belong to.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
