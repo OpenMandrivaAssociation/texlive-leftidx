@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-leftidx
-Version:	20070108
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Left and right subscripts and superscripts in math mode
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leftidx
