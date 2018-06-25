@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-leftidx
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Left and right subscripts and superscripts in math mode
 Group:		Publishing
