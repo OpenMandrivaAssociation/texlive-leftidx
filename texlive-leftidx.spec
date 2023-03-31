@@ -1,6 +1,6 @@
 Name:		texlive-leftidx
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Left and right subscripts and superscripts in math mode
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leftidx
