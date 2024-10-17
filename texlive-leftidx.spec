@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Left and right subscripts and superscripts in math mode
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/leftidx
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/leftidx
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/leftidx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/leftidx.doc.r%{version}.tar.xz
